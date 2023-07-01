@@ -97,7 +97,7 @@ GET http://xxx/book/add/?token=xxx&name=高等数学&sun=3&type=数学&writer=�
 
 ### 4. 删除书籍
 * 基本信息
-> 请求路径 ：/book/add
+> 请求路径 ：/book/delete
 > 请求方式 ：GET
 > 接口描述 ：用于添加书籍
 
@@ -108,7 +108,7 @@ GET http://xxx/book/add/?token=xxx&name=高等数学&sun=3&type=数学&writer=�
 | bookid | string | 是 | 书籍编号 |
 
 请求样例
-GET http://xxx/book/add/?token=xxx&bookid=114514
+GET http://xxx/book/delete/?token=xxx&bookid=114514
 
 
 * 相应参数
